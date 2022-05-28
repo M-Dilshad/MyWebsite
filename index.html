@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad - Computer Specialist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <span id="return-home"></span>
+    <div class="page">
+      <svg id="toggle" class="toggler">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+      <section class="nav-section" id="togglethis">
+        <div class="navigation-content">
+          <nav class="nav">
+            <div class="author-block">
+              <img class="author-image" src="/images/md.jpg" alt="" />
+              <h2 class="author-name">Muhammad Dilshad</h2>
+              <span>Computer Engineer</span>
+            </div>
+            <div class="page-links">
+              <ul class="page-links__list">
+                <li><a href="#return-home">Home</a></li>
+                <li><a href="#return-software-skills">Software Skills</a></li>
+                <li><a href="#return-contact-me">Contact Me</a></li>
+                <li><a href="https://github.com/M-Dilshad">Projects</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <div class="content">
+        <section class="hero">
+          <div class="hero-post">
+            <h2 class="hero-post__heading">Hi, Muhammad Here!</h2>
+            <div class="line-dec"></div>
+            <span class="hero-post__content"
+              >A self-learner and knowledge seeker that loves exploring new
+              skills, befriending smart people, and watching pros in action.
+              Although I am too occupied with gaming for a few hours every day,
+              but I give it my all to make the best out of the rest of the free
+              time that I have.</span
+            >
+          </div>
+        </section>
+        <section class="software-skills-section" id="return-software-skills">
+          <h2 class="section-title">Software Skills</h2>
+          <div class="line-dec"></div>
+          <div class="skills-cards">
+            <article class="card">
+              <div class="card__content">
+                <h3 class="card__title">Networking</h3>
+                <ul class="card__list">
+                  <li class="card__list-item">Nmap</li>
+                  <li class="card__list-item">Cisco Packet Tracer</li>
+                  <li class="card__list-item">Wireshark</li>
+                </ul>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__content">
+                <h3 class="card__title">Graphics</h3>
+                <ul class="card__list">
+                  <li class="card__list-item">Adobe Photoshop</li>
+                  <li class="card__list-item">Adobe Premiere Pro</li>
+                  <li class="card__list-item">Wondershare Filmora</li>
+                </ul>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__content">
+                <h3 class="card__title">Coding</h3>
+                <ul class="card__list">
+                  <li class="card__list-item">Visual Studio Code Software</li>
+                  <li class="card__list-item">Mysql Software</li>
+                  <li class="card__list-item">Python Basics</li>
+                  <li class="card__list-item">C++ Basics</li>
+                  <li class="card__list-item">SQL</li>
+                  <li class="card__list-item">HTML & CSS</li>
+                  <li class="card__list-item">JavaScript</li>
+                </ul>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__content">
+                <h3 class="card__title">Office</h3>
+                <ul class="card__list">
+                  <li class="card__list-item">Microsoft Excel</li>
+                  <li class="card__list-item">Microsoft Word</li>
+                  <li class="card__list-item">Microsoft Powerpoint</li>
+                </ul>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__content">
+                <h3 class="card__title">Browsers</h3>
+                <ul class="card__list">
+                  <li class="card__list-item">Google Chrome</li>
+                  <li class="card__list-item">Firefox</li>
+                  <li class="card__list-item">Brave</li>
+                </ul>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__content">
+                <h3 class="card__title">Cloud</h3>
+                <ul class="card__list">
+                  <li class="card__list-item">Dropbox</li>
+                  <li class="card__list-item">Google Drive</li>
+                  <li class="card__list-item">OneDrive</li>
+                  <li class="card__list-item">MEGA</li>
+                  <li class="card__list-item">Synology</li>
+                </ul>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__content">
+                <h3 class="card__title">Others</h3>
+                <ul class="card__list">
+                  <li class="card__list-item">Mathcad</li>
+                  <li class="card__list-item">Vmware Workstation</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="contact-form-section" id="return-contact-me">
+          <h2 class="section-title">Contact Me</h2>
+          <div class="line-dec"></div>
+          <form
+          class="form-block"
+          action="https://formspree.io/f/mayvppzl"
+          autocomplete="off"
+          id="contact-form"
+          method="post"
+        >
+          <label class="form-label required" for="full-name">Full Name</label>
+          <input
+            id="full-name"
+            type="text"
+            class="form-input"
+            required
+            placeholder="John Smith"
+            minlength="3"
+            maxlength="32"
+          />
+
+          <label class="form-label required" for="email-address"
+            >Email Address</label
+          >
+          <input
+            type="email"
+            id="email-address"
+            class="form-input"
+            required
+            placeholder="example@gmail.com"
+            maxlength="32"
+          />
+
+          <div class="form-message">
+            <label class="form-label required" for="message-box"
+              >Your Message</label
+            >
+            <textarea
+              name="message"
+              id="message-box"
+              form="contact-form"
+              cols="30"
+              rows="10"
+              placeholder="Type your message here."
+              required
+              class="contact-form-message"
+              maxlength="8192"
+            ></textarea>
+          </div>
+          <button class="form-btn-submit" type="submit">Submit</button>
+        </form>
+      </section>
+      <footer class="page-footer">
+        <span>Muhammad Dilshad</span>
+        <div class="footer-links">
+          <a href="https://github.com/M-Dilshad" target="_blank"><img src="/images/github.png" alt=""></a> 
+          <a href="https://facebook.com/aruinedman" target="_blank"><img src="/images/facebook.png" alt=""></a>
+        </div>
+      </footer>
+        </div>
+      </div>
+    </div>
+    <script src="js/toggle.js"></script>
+  </body>
+</html>
