@@ -97,7 +97,7 @@ a{
   .hero {
     /* Parallax scrolling effect */
     background-attachment: fixed;
-    background-image: url("/images/keyb1.jpg");
+    background-image: url("/images/keyboard-active.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
